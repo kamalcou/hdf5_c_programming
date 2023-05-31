@@ -1,13 +1,22 @@
 # How to install hdf5 file in the ubuntu?
+
+To install serial version: 
+```
+sudo apt-get install libhdf5-serial-dev
+```
+with mpi version: 
+```
+ sudo apt-get install libhdf5-mpich-dev
+```
 # hdf5_c_programming
 # To Run hdf5 file in C Programming 
 
  h5cc  create_hdf5.c -o new_hdf5
 
 #To run the program: 
-
+```
  ./new_hdf5
-
+```
 if h5dump is not available then install sudo apt install hdf5-tools
 # To see the h5dump file: 
 
