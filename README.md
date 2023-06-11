@@ -40,3 +40,7 @@ GROUP "/" {
 }
 }
 ```
+To run MPI program :
+```
+mpirun -np 2 ./mpi
+```
