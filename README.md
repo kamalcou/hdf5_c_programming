@@ -20,8 +20,9 @@ with mpi version:
 ```
 if h5dump is not available then install sudo apt install hdf5-tools
 # To see the h5dump file: 
-
+```
  h5dump SDS.h5
+```
 ```
 HDF5 "SDS.h5" {
 GROUP "/" {
